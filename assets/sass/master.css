@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+.container .main-body .container-box .inputs-box-container input {
+  box-shadow: 0 0 2px hsla(0, 0%, 0%, 0.467);
+}
+.container .main-body .container-box .inputs-box-container input::-moz-placeholder {
+  font-weight: 600;
+  color: hsla(0, 0%, 15%, 0.5);
+}
+.container .main-body .container-box .inputs-box-container input::placeholder {
+  font-weight: 600;
+  color: hsla(0, 0%, 15%, 0.5);
+}
+.container .main-body .container-box .inputs-box-container input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.container .main-body .container-box .inputs-box-container input:focus {
+  border: 1px solid hsla(0, 0%, 15%, 0.5);
+}
+.container .main-body .resault-box .circle {
+  font-size: 32px;
+  font-weight: 700;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+}
+
+.container .main-body .container-box .btn-box {
+  width: 200px;
+}
+.container .main-body .container-box .btn-box .btn-control:first-child {
+  color: hsla(0, 71%, 96%, 0.92);
+  background-color: hsla(246, 100%, 48%, 0.9);
+  box-shadow: 0 0px 4px 1px hsla(247, 77%, 44%, 0.6);
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.container .main-body .container-box .btn-box .btn-control:last-child {
+  color: hsla(0, 71%, 96%, 0.92);
+  background-color: hsla(355, 100%, 48%, 0.9);
+  box-shadow: 0 0px 4px 1px hsla(0, 92%, 44%, 0.6);
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+}/*# sourceMappingURL=master.css.map */

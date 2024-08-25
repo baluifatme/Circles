@@ -1,0 +1,27 @@
+.container {
+  .main-body {
+    .container-box {
+      .btn-box {
+        width: 200px;
+        .btn-control {
+          &:first-child {
+            color: map-get($colors, clr-primary);
+            background-color: map-get($colors, clr-btn-1);
+            box-shadow: 0 0px 4px 1px map-get($colors, clr-shadow-2);
+            @include btn-style;
+            font-weight: 600;
+            font-size: 14px;
+          }
+          &:last-child {
+            color: map-get($colors, clr-primary);
+            background-color: map-get($colors, clr-btn-2);
+            box-shadow: 0 0px 4px 1px map-get($colors, clr-shadow-1);
+            @include btn-style;
+            font-weight: 600;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
